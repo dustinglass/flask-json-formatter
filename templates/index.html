@@ -2,8 +2,15 @@
 <html>
 
   <head>
-    <title>JSON Formatter</title>
+    <title>HTTP Request & Response Data JSON Formatter</title>
     <meta charset="utf-8">
+
+    <meta name="description" content="Format HTTP request & response data from your developer console as JSON">
+
+    <meta property="og:title" content="HTTP Request & Response Data Formatter">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Format HTTP request & response data from your developer console as JSON">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -12,10 +19,10 @@
 
   <body>
     <div class="container">
-      <h1>JSON Formatter</h1>
+      <h1>HTTP Request & Response Data JSON Formatter</h1>
       <form action="/format">
         <div class="panel panel-default">
-          <div class="panel-heading">Paste raw headers from your browser's developer tools below:</div>
+          <div class="panel-heading">Paste raw HTTP request of response data from your browser's developer console below to format as a nice object:</div>
           <div class="panel-body"><textarea cols=72 rows=20 name="full_text">{{ full_text }}</textarea></div>
         </div>
         Quotes
